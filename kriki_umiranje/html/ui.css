@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'akrobatblack';
+    src: url(fonts/Akrobat-Black.otf);
+}
+@font-face {
+    font-family: 'falenabold';
+    src: url(fonts/Falena-Bold.ttf);
+}
+@font-face {
+    font-family: 'falenamedium';
+    src: url(fonts/Falena-Medium.ttf);
+}
+@font-face {
+    font-family: 'falenathin';
+    src: url(fonts/Falena-Thin.ttf);
+}
+* {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body{
+	display:none;
+}
+
+.dark {
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    width: 100%;
+    height: 100%;
+}
+.icon {
+    position: absolute;
+    left: 46.3vw;
+    top: 17vw;
+    width: auto;
+    height: 4.2vw;
+}
+#timer {
+    position: absolute;
+    left: 46.5vw;
+    top: 28.5vw;
+    font-family: 'akrobatblack';
+    font-size: 2.8vw;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+h1 {
+    position: absolute;
+    left: 42.05vw;
+    top: 20.8vw;
+    font-size: 2vw;
+    font-family: 'falenabold';
+    color: rgb(255, 0, 0);
+}
+h2 {
+    position: absolute;
+    left: 42.20vw;
+    top: 24.4vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.1vw;
+    font-size: 1.1vw;
+    font-weight: 300;
+    font-family: 'falenamedium';
+    color: rgb(122, 122, 122);
+}
+h3 {
+    position: absolute;
+    left: 39vw;
+    top: 32.4vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.1vw;
+    font-size: 1.25vw;
+    font-weight: 400;
+    font-family: 'falenamedium';
+    color: rgb(122, 122, 122);
+}
+h4 {
+    position: absolute;
+    left: 36vw;
+    top: 50vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.1vw;
+    font-size: 0.8vw;
+    font-weight: 400;
+    font-family: 'falenamedium';
+    color: rgb(87, 85, 85);
+}
